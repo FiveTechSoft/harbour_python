@@ -8,7 +8,7 @@ test.prg
 
 -lFiveH64
 -lFiveHC64
--lpython39
+-lpython311
 
 -lgdiplus
 -lole32
