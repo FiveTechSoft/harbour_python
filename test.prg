@@ -1,5 +1,3 @@
-#include "FiveWin.ch"
-
 function Main()
 
    local hModule, hFunc, hNum, hResult
@@ -9,12 +7,12 @@ function Main()
    hFunc := PyObject_GetAttrString( hModule, "sqrt" ) 
    hNum := PyFloat_FromDouble( 123 ) 
    hResult := PyObject_CallFunctionObjArgs( hFunc, hNum ) 
-   MsgInfo( PyFloat_AsDouble( hResult ) )
+   ? PyFloat_AsDouble( hResult )
    Py_Decref( hNum )
    Py_Decref( hFunc )
    Py_Decref( hModule )
    Py_Finalize()
-   MsgInfo( "ok" )
+   ? "ok"
 
 return nil
 
