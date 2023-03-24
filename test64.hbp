@@ -1,26 +1,6 @@
--gui
-
--Ic:\fwteam\include
-
 test.prg
 
--Lc:\fwteam\lib
-
--lFiveH64
--lFiveHC64
 -lpython311
-
--lgdiplus
--lole32
--lOleDlg
--lversion
-
-xhb.hbc
-hbct.hbc
-hbwin.hbc
-hbmzip.hbc
-hbziparc.hbc
-hbfoxpro.hbc
 
 -ldflag=/NODEFAULTLIB:msvcrt
 
