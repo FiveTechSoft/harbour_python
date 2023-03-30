@@ -1,7 +1,7 @@
--Ic:\Users\Anto\AppData\Local\Programs\Python\Python311\include\
+-Ic:\Users\${USERNAME}\AppData\Local\Programs\Python\Python311\include\
 
 python.c
 
--Lc:\Users\Anto\AppData\Local\Programs\Python\Python311\libs
+-Lc:\Users\${USERNAME}\AppData\Local\Programs\Python\Python311\libs
 
 -lpython311
