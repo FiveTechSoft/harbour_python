@@ -1,6 +1,5 @@
 -Ic:\Users\Anto\AppData\Local\Programs\Python\Python311\include\
 
-gui.prg
 python.c
 
 -Lc:\Users\Anto\AppData\Local\Programs\Python\Python311\libs
